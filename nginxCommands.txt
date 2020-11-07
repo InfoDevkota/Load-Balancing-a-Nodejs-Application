@@ -1,0 +1,8 @@
+sudo apt-get install nginx 
+- to install
+
+sudo nginx -t 
+to check syntax error
+
+sudo systemctl restart nginx
+to restart nginx

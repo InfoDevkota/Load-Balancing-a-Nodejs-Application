@@ -1,0 +1,19 @@
+sudo npm install -g pm2
+- to install
+
+pm2 start index.js
+
+pm2 start index.js -i max -name "Load Balance"
+
+pm2 list
+
+pm2 delete 0 
+-to delete iteam at 0.
+
+pm2 delete name
+- to delete all items of name
+
+pm2 restart 0
+- to restart 0
+
+pm2 restart name
